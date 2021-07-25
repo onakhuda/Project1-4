@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 50;
+    background-color: darkgray;
+    color: white;
+    border: 1px white solid;
+    text-align: center;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.layout {
+    width: 100%;
+}
+
+.container {
+    background-color:gray; 
+    width: 100%;
+    height: 500px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+/* Layout 1 */
+
+#containerlayout1 h2{
+    margin: 10px;
+}
+
+#box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 70%;  
+}
+
+#box1 h2 {
+    font-size: 12px;
+}
+
+#logo1 {
+    flex: 1 2 30%;
+    height: 60px;
+}
+
+#menu1 {
+    flex: 2 1;
+    width: 80%; 
+}
+
+#phone1 {
+    flex: 2 1;
+    width: 40%;
+}
+
+#image1 {
+    flex: 1 2 100%;
+    height: 100px;
+}
+
+#sidebar1 {
+    flex: 1 2 30%;
+    height: 160px;
+}
+
+#text1 {
+    flex: 2 1 70%;
+    height: 160px;
+}
+
+#footer1 {
+    flex: 1 2 100%;
+    height: 100px;
+}
+
+/* Layout 2 */
+
+#box2 {
+    display: flex;
+    justify-content: flex-end; 
+    width: 70%;
+}
+
+#logo2 {
+    flex: 1 2 30%;
+    height: 70px;
+    max-width: 30%;
+}
+
+#phone2 {
+    flex: 2 1;
+    max-width: 70%;
+    height: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+#menu2 {
+    flex: 1 2 100%;
+    height: 20px;
+    font-size: 12px;
+}
+
+#image2 {
+    flex: 1 2 100%;
+    height: 130px;
+}
+
+.feat2 {
+    flex: 1 2 33%;
+    height: 60px;
+}
+
+#sidebar2 {
+    flex: 1 2 30%;
+    height: 140px;
+}
+
+#text2 {
+    flex: 2 1 70%;
+    height: 140px;
+}
+
+#footer2 {
+    flex: 1 2 100%;
+    height: 20px;
+    font-size: 12px;
+}
+
+/* Layout 3 */
+
+#containerlayout3 h2{
+    margin: 10px;
+}
+
+#box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 70%;  
+}
+
+#box3 h2 {
+    font-size: 12px;
+}
+
+#blog3 {
+    flex: 2 1 100%;
+    height: 20px;
+    font-size: 12px;
+}
+
+#logo3 {
+    flex: 1 2 30%;
+    height: 60px;
+}
+
+#menu3 {
+    flex: 2 1;
+    width: 80%;
+}
+
+#phone3 {
+    flex: 2 1;
+    width: 40%;
+}
+
+#st {
+    width: 75%;
+}
+
+#slideshow3 {
+    flex: 1 2 100%;
+    height: 100px;
+}
+
+#text3 {
+    flex: 2 1 100%;
+    height: 140px;
+}
+
+#sidebar3 {
+    flex: 1 2 25%;
+    height: 250px;
+}
+
+#footer3 {
+    flex: 1 2 100%;
+    height: 90px;
+}
+
+/* Layout 4 */
+#logo4 {
+    flex: 1 2 30%;
+    height: 40px;
+}
+
+#menu4 {
+    flex: 2 1 70%;
+    height: 40px;
+}
+
+#image4 {
+    flex: 1 2 100%;
+    height: 100px;
+}
+
+.feat4 {
+    flex: 1 2 33%;
+    height: 70px;
+}
+
+#sidebar4 {
+    flex: 1 2 40%;
+    height: 210px;
+}
+
+#text4 {
+    flex: 2 1 60%;
+    height: 210px;
+}
+
+#footer4 {
+    flex: 1 2 100%;
+    height: 30px;
+}
+
